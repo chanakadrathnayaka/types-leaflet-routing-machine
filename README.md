@@ -49,6 +49,15 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 L.Routing.control({
+    router: L.Routing.osrmv1({
+        serviceUrl: `http://router.project-osrm.org/route/v1/`
+    }),
+    showAlternatives: true,
+    lineOptions: {styles: [{color: '#242c81', weight: 7}]},
+    fitSelectedRoutes: false,
+    altLineOptions: {styles: [{color: '#ed6852', weight: 7}]},
+    show: false,
+    routeWhileDragging: true,
     waypoints: [
         L.latLng(57.74, 11.94),
         L.latLng(57.6792, 11.949)
