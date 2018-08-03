@@ -4,27 +4,37 @@ Leaflet Routing Machine is an amazing plugin developed by @perliedman in order t
 
 ### How to use leaflet-routing-machine.js in an Angular 2+ project 
 
-```javascript
 1. Install [_leaflet_](https://www.npmjs.com/package/leaflet)
-    `npm i leaflet`
+    ````npm
+        npm i leaflet
+    ```
 2. Install [_TypeScript definition of leaflet_](https://www.npmjs.com/package/@types/leaflet)
-    `npm i --save-dev @types/leaflet`
+    ````npm
+        npm i --save-dev @types/leaflet
+    ````
 3. Install [_leaflet-routing-machine.js_](https://www.npmjs.com/package/leaflet-routing-machine)
-    `npm i leaflet-routing-machine`
+    ````npm
+        npm i leaflet-routing-machine
+    ```
 4. Install [_TypeScript definition of leaflet routing machine_](https://www.npmjs.com/package/@types/leaflet-routing-machine)
-    `npm i --save-dev @types/leaflet-routing-machine`
+    ```npm
+        npm i --save-dev @types/leaflet-routing-machine
+    ```
 5. Import leaflet.css & leaflet-routing-machine.css into the project
-     - Open angular-cli.json
-     - Add leaflet & leaflet-routing-machine css file into style attribute.
-       `"styles": [
-           "../node_modules/leaflet/dist/leaflet.css",
-           "../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css"
-        ]`
+    - Open angular-cli.json
+    - Add leaflet & leaflet-routing-machine css file into style attribute.
+    ```javascript
+        "styles": [
+            "../node_modules/leaflet/dist/leaflet.css",
+            "../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css"
+        ]
+    ```
 6. Import leaflet into the component
-     - Add below import statements top of your component
-        `import * as L from 'leaflet';
-         import 'leaflet-routing-machine';`
-
+    - Add below import statements top of your component
+    ```javascript
+        import * as L from 'leaflet';
+        import 'leaflet-routing-machine';
+    ```
 # Header 1
 ## Header 2
 ### Header 3
@@ -38,7 +48,7 @@ Leaflet Routing Machine is an amazing plugin developed by @perliedman in order t
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
