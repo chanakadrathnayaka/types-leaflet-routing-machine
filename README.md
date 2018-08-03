@@ -5,15 +5,15 @@ Leaflet Routing Machine is an amazing plugin developed by @perliedman in order t
 ### How to use leaflet-routing-machine.js in an Angular 2+ project 
 
 1. Install [_leaflet_](https://www.npmjs.com/package/leaflet)
-    ````npm
+    ```npm
         npm i leaflet
     ```
 2. Install [_TypeScript definition of leaflet_](https://www.npmjs.com/package/@types/leaflet)
-    ````npm
+    ```npm
         npm i --save-dev @types/leaflet
-    ````
+    ```
 3. Install [_leaflet-routing-machine.js_](https://www.npmjs.com/package/leaflet-routing-machine)
-    ````npm
+    ```npm
         npm i leaflet-routing-machine
     ```
 4. Install [_TypeScript definition of leaflet routing machine_](https://www.npmjs.com/package/@types/leaflet-routing-machine)
