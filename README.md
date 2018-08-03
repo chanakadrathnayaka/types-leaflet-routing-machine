@@ -35,27 +35,26 @@ Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://
         import * as L from 'leaflet';
         import 'leaflet-routing-machine';
     ```
-# Header 1
-## Header 2
-### Header 3
+    
+### How to use leaflet routing machine in your typescript project
+    ```javascript
+        import * as L from 'leaflet';
+        import 'leaflet-routing-machine';
 
-- Bulleted
-- List
+        const map: L.Map = L.map('map-container');
 
-1. Numbered
-2. List
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
 
-**Bold** and _Italic_ and `Code` text
+        L.Routing.control({
+            waypoints: [
+                L.latLng(57.74, 11.94),
+                L.latLng(57.6792, 11.949)
+            ]
+        }).addTo(map);
+    ```
 
-[Link](url) and ![Image](src)
+### Do you want any modification or report an issue?
 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chanakadrathnayaka/types-leaflet-routing-machine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Feel free to contact me via [**talktochanaka@gmail.com**](mailto:talktochanaka@gmail.com)
