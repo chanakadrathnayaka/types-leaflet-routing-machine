@@ -1,15 +1,29 @@
-## Welcome to GitHub Pages
+## TypeScript definition for leaflet routing machine.js
 
-You can use the [editor on GitHub](https://github.com/chanakadrathnayaka/types-leaflet-routing-machine/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Leaflet Routing Machine is an amazing plugin developed by @perliedman in order to draw routes on a leaflet map. TypeScript definition helps you to use this plugin in your typescript projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How to use leaflet-routing-machine.js in an Angular 2+ project 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+```javascript
+1. Install [_leaflet_](https://www.npmjs.com/package/leaflet)
+    `npm i leaflet`
+2. Install [_TypeScript definition of leaflet_](https://www.npmjs.com/package/@types/leaflet)
+    `npm i --save-dev @types/leaflet`
+3. Install [_leaflet-routing-machine.js_](https://www.npmjs.com/package/leaflet-routing-machine)
+    `npm i leaflet-routing-machine`
+4. Install [_TypeScript definition of leaflet routing machine_](https://www.npmjs.com/package/@types/leaflet-routing-machine)
+    `npm i --save-dev @types/leaflet-routing-machine`
+5. Import leaflet.css & leaflet-routing-machine.css into the project
+     - Open angular-cli.json
+     - Add leaflet & leaflet-routing-machine css file into style attribute.
+       `"styles": [
+           "../node_modules/leaflet/dist/leaflet.css",
+           "../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css"
+        ]`
+6. Import leaflet into the component
+     - Add below import statements top of your component
+        `import * as L from 'leaflet';
+         import 'leaflet-routing-machine';`
 
 # Header 1
 ## Header 2
