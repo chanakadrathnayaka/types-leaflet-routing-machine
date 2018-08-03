@@ -23,7 +23,7 @@ Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://
 5. Import leaflet.css & leaflet-routing-machine.css into the project
     - Open angular-cli.json
     - Add leaflet & leaflet-routing-machine css file into style attribute.
-    ```TypeScript
+    ```JavaScript
         "styles": [
             "../node_modules/leaflet/dist/leaflet.css",
             "../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css"
@@ -31,7 +31,7 @@ Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://
     ```
 6. Import leaflet into the component
     - Add below import statements top of your component
-    ```TypeScript
+    ```JavaScript
         import * as L from 'leaflet';
         import 'leaflet-routing-machine';
     ```
