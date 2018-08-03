@@ -12,7 +12,7 @@ Leaflet Routing Machine is an amazing plugin developed by @perliedman in order t
     ```npm
         npm i --save-dev @types/leaflet
     ```
-3. Install [_leaflet-routing-machine.js_](https://www.npmjs.com/package/leaflet-routing-machine)
+3. Install [_leaflet routing machine_](https://www.npmjs.com/package/leaflet-routing-machine)
     ```npm
         npm i leaflet-routing-machine
     ```
