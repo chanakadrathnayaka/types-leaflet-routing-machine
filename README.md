@@ -1,8 +1,8 @@
-## TypeScript definition for leaflet routing machine.js
+# TypeScript definition for leaflet routing machine.js
 
 Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://github.com/perliedman/leaflet-routing-machine) in order to draw routes on a leaflet map. TypeScript definition helps you to use this plugin in your typescript projects.
 
-### How to use leaflet-routing-machine.js in an Angular 2+ project 
+## How to use leaflet-routing-machine.js in an Angular 2+ project 
 
 1. Install [_leaflet_](https://www.npmjs.com/package/leaflet)
     ```npm
@@ -36,7 +36,7 @@ Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://
         import 'leaflet-routing-machine';
     ```
     
-### How to use leaflet routing machine in your typescript project
+## How to use leaflet routing machine in your typescript project
 
 ```javascript
 import * as L from 'leaflet';
@@ -65,6 +65,6 @@ L.Routing.control({
 }).addTo(map);
 ```
 
-### Do you want any modification or report an issue?
+## Do you want any modification or report an issue?
 
 This type definition is provided as a fundamental solution for configure and display a route by using leaflet routine machine. This definition may not be enough for advanced use cases  such as Interaction, Support for other routing machine back ends. If you need any support with such scenario feel free to contact me via [**talktochanaka@gmail.com**](mailto:talktochanaka@gmail.com).
