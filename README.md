@@ -1,4 +1,4 @@
-# TypeScript definition for leaflet routing machine.js
+# TypeScript definition for leaflet routing machine
 
 Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://github.com/perliedman/leaflet-routing-machine) in order to draw routes on a leaflet map. TypeScript definition helps you to use this plugin in your typescript projects.
 
