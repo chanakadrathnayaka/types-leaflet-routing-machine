@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: TypeScript Definition for leaflet-routing-machine.js
-description: Use leaflet routing machine in your TypeScript project
+title: Leaflet routing machine typed definition documentation
+description: The documentation of Typescript definition for leaflet routing machine
 google_analytics: UA-77736216-3
 github:
   repository_url: https://github.com/chanakadrathnayaka/DefinitelyTyped/tree/master/types/leaflet-routing-machine
