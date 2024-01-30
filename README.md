@@ -2,7 +2,7 @@
 
 Leaflet Routing Machine is an amazing plugin developed by [@perliedman](https://github.com/perliedman/leaflet-routing-machine) in order to draw routes on a leaflet map. TypeScript definition helps you to use this plugin in your typescript projects.
 
-## How to use leaflet-routing-machine.js in an Angular 2+ project 
+## How to use leaflet-routing-machine.js in an Angular project 
 
 1. Install [_leaflet_](https://www.npmjs.com/package/leaflet)
     ```npm
