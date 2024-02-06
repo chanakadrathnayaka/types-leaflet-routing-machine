@@ -68,3 +68,6 @@ L.Routing.control({
 ## Do you want any modification or report an issue?
 
 This type definition is provided as a fundamental solution for configure and display a route by using leaflet routine machine. This definition may not be enough for advanced use cases  such as Interaction, Support for other routing machine back ends. If you need any support with such scenario feel free to contact me via [**talktochanaka@gmail.com**](mailto:talktochanaka@gmail.com).
+
+---
+[Visit me](https://www.iamchanaka.com)
